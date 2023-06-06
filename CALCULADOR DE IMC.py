@@ -1,6 +1,6 @@
 # Av1-IMC
 import PySimpleGUI  as sg 
-sg.theme("TanBlue")
+sg.theme("Reddit")
 
 Chico = [
     [sg.Text('IMC')],
