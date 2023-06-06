@@ -2,14 +2,14 @@
 import PySimpleGUI  as sg 
 sg.theme("TanBlue")
 
-Layout = [
+Chico = [
     [sg.Text('IMC')],
     [sg.Text('massa '),sg.Input(key='-MASS-',size=(5,1))],
     [sg.Text('altura '),sg.Input(key='-HIGH-',size=(5,1))],
     [sg.Push(),sg.Button('calcular'),sg.Push()]
 ]
 
-window = sg.Window('IMC',layout=Layout,font='Monaco 18')
+window = sg.Window('IMC',layout=Chico,font='Monaco 18')
 
 while True:
     event, value = window.read()
